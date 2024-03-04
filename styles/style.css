@@ -47,5 +47,18 @@ body{
     font-size: 18px;
     height: 0;
     overflow: hidden;
-    transition: .5s;
+    transition: 1s;
+}
+
+/* javascript style link  */
+
+.accordion-container .content-container.active .answer{
+    height: 190px;
+    font-size: 23px;
+    
+
+}
+
+.accordion-container .content-container.active .question h2::after{
+    content: "-";
 }
